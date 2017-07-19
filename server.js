@@ -43,7 +43,7 @@ router.use(express.static(__dirname + '/public'));
   router.get('/', (req,res) => {
   //  res.send("HELLO EXPRESS");
     res.render('home.hbs',{
-      welcomeHome : "Welcome to Node.js Home Page",
+      pageTitle : "Welcome to Node.js Home Page",
       paragraph: "this page is rendered via hbs model installed and added to our project. its awesome to have something like this!!!",
       CurrentYear: new Date().getFullYear(),
       CurrentDate: new Date().getDate(),
