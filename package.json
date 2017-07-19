@@ -1,0 +1,19 @@
+{
+  "name": "express-server",
+  "version": "1.0.0",
+  "description": "\"Learning NODE with Express\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "hbs": "^4.0.1",
+    "mongoose": "^4.11.3",
+    "morgan": "^1.8.2",
+    "mustache-express": "^1.2.5"
+  }
+}
